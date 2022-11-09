@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'personal.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='mysql://b247ea06df9d68:de9b838e@us-cdbr-east-05.cleardb.net/heroku_46f81074cf83ca4?reconnect=true',
     )
 
 }
